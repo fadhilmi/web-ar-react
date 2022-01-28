@@ -7,32 +7,30 @@ const Home = () => {
 
   return (
     <div className={styles.root}>
-      <div className={styles.wrapper}>
-        <button
-          className={styles.button}
-          onClick={() => {
-            navigate("/web-ar");
-          }}
-        >
-          <p>Open WebAR</p>
-        </button>
-        <button
-          className={styles.button}
-          onClick={() => {
-            navigate("/web-ar2");
-          }}
-        >
-          <p>Open WebAR2</p>
-        </button>
-        <button
-          className={styles.button}
-          onClick={() => {
-            navigate("/web-ar3");
-          }}
-        >
-          <p>Open WebAR3</p>
-        </button>
-      </div>
+      <button
+        className={styles.button}
+        onClick={() => {
+          navigate("/web-ar");
+        }}
+      >
+        <p>Open WebAR</p>
+      </button>
+      <button
+        className={styles.button}
+        onClick={() => {
+          navigate("/web-ar2");
+        }}
+      >
+        <p>Open WebAR2</p>
+      </button>
+      <button
+        className={styles.button}
+        onClick={() => {
+          navigate("/web-ar3");
+        }}
+      >
+        <p>Open WebAR3</p>
+      </button>
     </div>
   );
 };
